@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Progress } from "@/components/ui/progress"
-import { Trophy, Sword, Shield, Zap, Star, CheckCircle2, XCircle, ExternalLink, Leaf, Trash2, Crown, Target, Check, Plus, Gift } from 'lucide-react'
+import { Trophy, Sword, Zap, Star, Check, ExternalLink, Trash2, Crown, Target, Plus, Gift } from 'lucide-react'
 import { LEVELS } from './constants/levels'
 import { ACHIEVEMENTS } from './constants/achievements'
 import { Task, Achievement, Level, GameState } from './constants/types'
